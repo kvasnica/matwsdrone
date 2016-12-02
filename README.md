@@ -15,7 +15,7 @@ Next, install the `matwebsocks` library by running
 ```
 >> matws_install
 ```
-and restart Matlab.
+and **restart Matlab** (really, this is necessary).
 
 Finally, install [Docker](https://docs.docker.com/engine/installation/) and pull two images:
 ```
