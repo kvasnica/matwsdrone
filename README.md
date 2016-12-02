@@ -75,6 +75,13 @@ To connect the client to an instance of [swsb](https://github.com/kvasnica/swsb)
 >> drone = MatWsDrone('ws://server:port/t/topic')
 ```
 
+## Troubleshooting
+
+* Make sure your computer (or the one which runs the `wspydrone` gateway) is connected to the drone via wifi.
+* Restart `wspydrone` and/or `swsb`.
+* Restart Matlab.
+* If problems remain, submit a bug report.
+
 ## Links
 
 * [swsb](https://github.com/kvasnica/swsb) - Simple Websocket Broker
