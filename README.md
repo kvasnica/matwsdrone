@@ -19,11 +19,17 @@ $ docker pull kvasnica/wspydrone
 ## Usage
 
 1. In the terminal window, start the [Simple Websocket Broker](https://github.com/kvasnica/swsb) by
+    ```
     $ docker run -it -p 8025:8025 kvasnica/swsb
+    ```
 2. Make sure your computer is connected to the Ar.Drone via wifi and start the [wspydrone](https://github.com/kvasnica/wspydrone) gateway:
+    ```
     $ docker run -it --net=host kvasnica/wspydrone
+    ```
 3. In Matlab, start the client:
+    ```
     >> drone = MatWsDrone()
+    ```
 4. Now you can communicate with the drone using one of the following commands:
 
 * `drone.takeoff()` - make the drone take off
