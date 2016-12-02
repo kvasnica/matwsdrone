@@ -2,6 +2,10 @@
 
 Matlab websocket gateway to Ar.Drone
 
+## Note
+
+If you have the [Instrument Control Toolbox](https://www.mathworks.com/products/instrument/) installed, you will be better of with using the [native ARDrone-Matlab interface](https://github.com/SaidBenaissa/ARDrone-Matlab) instead of `MatWsDrone`.
+
 ## Installation
 Install [tbxmananger](http://www.tbxmanager.com) for Matlab per the instructions on its webpage.
 
