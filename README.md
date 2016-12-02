@@ -7,10 +7,17 @@ Install [tbxmananger](http://www.tbxmanager.com) for Matlab per the instructions
 
 Then, in Matlab, run:
 ```
->> tbxmanager install matwsdrone
+>> tbxmanager install matwsdrone wsclient matwebsocks matlabjson eventcollector
 ```
+to install all dependencies.
 
-Now install [Docker](https://docs.docker.com/engine/installation/) and pull two images:
+Next, install the `matwebsocks` library by running
+```
+>> matws_install
+```
+and restart Matlab.
+
+Finally, install [Docker](https://docs.docker.com/engine/installation/) and pull two images:
 ```
 $ docker pull kvasnica/swsb
 $ docker pull kvasnica/wspydrone
